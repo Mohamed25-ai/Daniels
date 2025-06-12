@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Daniels - Personal Portfolio Website
 
 Daniels is a modern and responsive personal portfolio website template built using **HTML**, **CSS**, and **Bootstrap**.  
@@ -24,3 +25,7 @@ It is designed to showcase personal or professional projects, skills, and experi
 1. Clone the repository:
    ```bash
    git clone https://github.com/Mohamed25-ai/Daniels.git
+   
+# Daniels
+Daniels is a personal portfolio website template built using HTML, CSS, and Bootstrap
+>>>>>>> 446f3260888c1ca74571050bd5b35ad551bb7c2f
