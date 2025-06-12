@@ -1,0 +1,195 @@
+@media (min-width: 992px ){
+    .home-section-container{
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(../imgs/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-size: cover;
+}
+
+.services-header-container>h2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12%;
+    height: 2px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat-x;
+}
+
+.portfolio-header>h2::after{
+        content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12%;
+    height: 2px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat-x;
+}
+.modal-body-container{
+    width: 40%;
+}
+.portfolio-section-modals
+.carousel-control-prev>span{
+    width: 0;
+    height: 0;
+    position: relative;
+    margin: 30px;
+    background: transparent;
+    border-top: 3px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-right: 15px solid transparent;
+    border-right-width: 25px;
+    border-right-color: transparent;
+}
+.portfolio-section-modals
+.carousel-control-prev>span::after{
+    content: "";
+    position: absolute;
+    top: -9px;
+    right: -27px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-right: 20px solid white
+}
+
+.portfolio-section-modals
+.carousel-control-next>span{
+    width: 0;
+    height: 0;
+    position: relative;
+    margin: 30px;
+    background: transparent;
+    border-top: 3px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 15px solid transparent;
+    border-left-width: 25px;
+    border-left-color: transparent;
+}
+.portfolio-section-modals
+.carousel-control-next>span::after{
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 20px solid white;
+}
+
+.carousel-control-prev{
+    left: -77%;
+    top: -10%;
+}
+.carousel-control-next{
+    right: -72%;
+    top: -10%;
+}
+.portfolio-section-modals .modal-header {
+    width: 71%;
+}
+.portfolio-section-modals
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    color: white;
+    text-decoration: unset;
+    outline: 0;
+    opacity: 1;
+    --bs-modal-color: transparent;
+}
+.carousel-first figure{
+    width: 10%;
+}
+
+.testimonials-header>h2::after{
+        content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 23%;
+    height: 2px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat-x;
+}
+
+.our-team-card-layer{
+    top: 1%;
+    right: 1%;
+    bottom: 21%;
+    left: 1%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.our-team-section header>h2::after{
+        content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 17%;
+    height: 2px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat-x;    
+}
+/*  */
+
+.contact-header>h2::after{
+        content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16%;
+    height: 2px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat-x;    
+}
+.about-photo{
+    width: 80%;
+}
+
+.about-photo::before {
+    content: " ";
+    position: absolute;
+    background-image: url(../imgs/dots.png);
+    left: 1%;
+    width: 7%;
+    height: 80%;
+    bottom: 0%;
+    background-position: 10% 10%;
+}
+.about-photo::after {
+    content: " ";
+    position: absolute;
+    /* left: 0; */
+    height: 5.5%;
+    right: 17%;
+    background-image: url(../imgs/dots.png);
+    bottom: 0;
+    left: 0%;
+    background-position: 10% 10%;
+}
+.header-content>h1{
+    font-family: var(--header-fonts);
+    font-size: 60px;
+    font-weight: 200;
+    width: 100%;
+}
+
+
+.header-content > h1::after {
+
+    font-family: var(--header-fonts);
+    font-size: 60px;
+    font-weight: 400;
+}
+
+}
